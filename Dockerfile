@@ -11,10 +11,10 @@ ENV SSR_OBFS http_simple
 
 
 RUN apk update && \
-    apk upgrade && \
+    apk --no-cache upgrade && \
 
 # add chacha20(libsodium) git python etc.
-    apk add libsodium git python && \
+    apk --no-cache add libsodium git python && \
 
 # clone ssr
     cd ~ && \
