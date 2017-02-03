@@ -22,4 +22,4 @@ RUN apk update && \
 
 EXPOSE $SSR_SERVER_PORT
 
-CMD python /root/shadowsocksr/shadowsocks/server.py -p $SSR_SERVER_PORT -k $SSR_PASSWORD -O $SSR_PROTOCOL -o $SSR_OBFS
+CMD python /root/shadowsocksr/shadowsocks/server.py -p $SSR_SERVER_PORT -k $SSR_PASSWORD -m $SSR_METHOD -O $SSR_PROTOCOL -o $SSR_OBFS
