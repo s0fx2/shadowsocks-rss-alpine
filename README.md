@@ -30,7 +30,7 @@ git clone https://github.com/s0fx2/shadowsocks-rss-alpine.git
 - 修改 SSR_METHOD 加密方法
 - 修改 SSR_PROTOCOL 协议插件
 - 修改 SSR_OBFS 混淆方式
-- FAST_OPEN 根据宿主内核做调整，能运行docker的一般都支持，但是需要你自己确认，默认你那里支持
+- FAST_OPEN 根据宿主内核做调整，能运行docker的一般都支持，但是需要你自己确认，默认是开启的
 
 
 ### 推荐的加密方法：
