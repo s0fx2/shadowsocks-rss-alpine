@@ -32,6 +32,9 @@ git clone https://github.com/s0fx2/shadowsocks-rss-alpine.git
 - 修改 SSR_OBFS 混淆方式
 - FAST_OPEN 根据宿主内核做调整，能运行docker的一般都支持，但是需要你自己确认，默认是开启的
 
+docker build -t some_name_your_build .
+docker run -d --name rss_name -p your_port:your_port some_name_your_build
+
 
 ### 推荐的加密方法：
 
